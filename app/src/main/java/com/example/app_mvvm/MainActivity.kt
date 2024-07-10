@@ -89,6 +89,6 @@ class CounterViewModel : ViewModel() {
 }
 class GenericClass<T>(var content: T) {
     fun printContent() {
-        Log.d("GenericClass", content.toString())
+        Log.d("Generic Class", content.toString())
     }
 }
